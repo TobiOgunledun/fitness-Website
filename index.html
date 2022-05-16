@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="">
+    <title>Geenie Gym</title>
+
+    <!-- ::::::LINKS:::::: -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
+    
+    <!-- :::::ICONS LINK FROM LOCAL TEMPLATE SOURCE OFFLINE:::::: -->
+	<link rel="stylesheet" href="file:///C:/Users/User/Desktop/iTins/icons/fontawesome-free-5.15.3-web/css/all.css">
+
+
+    <!-- :::::::::::ICONS-LINK ONLINE:::::::::::::::::: -->
+    <script src="https://kit.fontawesome.com/2bbbf54a3f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <!-- ---------------------
+    HOME SECTION
+    --------------------- -->
+
+
+    <div class="home" id="home">
+
+
+        <div class="header">
+            <nav>
+                <label for="logo" class="logo"> 
+                    <img src="img/logo.svg" alt="">
+                </label>
+                
+                <i class="fas fa-bars open" id="open"></i>
+    
+                <ul class="nav-menu" id="nav-menu">
+                    <i class="fas fa-times close" id="close"></i>
+                    <li><button id="navlink" onclick="showPop()" > book</button></li>
+                    <li><button id="navlink" onclick="showPop()" > about</button></li>
+                    <li><button id="navlink" onclick="showPop()" > explore</button></li>
+                    <li><button id="navlink" onclick="showPop()" > services</button></li>
+                    <li><button id="navlink" onclick="showPop()" > contact</button></li>
+                </ul>
+                  
+            </nav>
+
+            <div class="popup-view" id="popup-view">
+                <div class="popup-box">
+                    <p>
+                        The page your are trying to reach has an empty
+                         content. <br>
+                         Do you still want to proceed to page?
+                    </p>
+                    <div class="btn">
+                        <a href=""><button>No</button> </a> 
+                        <a href="404.html"><button>Yes</button> </a> 
+                     </div>
+                    
+
+                </div>
+            </div>
+    
+            <div class="heading">
+                <p>
+                    build your body &
+                </p>
+                <h1>
+                    shape yourself!
+                </h1>
+            </div>
+            
+        </div>
+            <div class="hero-section" id="hero-section">
+                <div class="hero-box">
+                    <button class="active">
+                        <i class="fas fa-bookmark"></i>
+                        <h1>
+                           enroll
+                        </h1>
+                        <i class="fas fa-minus"></i>
+                    </button>
+                        
+                    
+                    <div class="hero-item">
+                        <div class="head">
+                            <p>
+                                Session type :
+                                <input type="radio" value="exercise" name="">
+                                Work out
+
+                                <input type="radio" value="massage" name="">
+                                Massage
+                            </p>
+                            
+                        </div>
+
+                        <div class="hero-content">
+                            <div class="content1">
+                                <p>
+                                    Time From:
+                                    <select name="time" id="session-time">
+                                        <option value=""></option>
+                                        <option value=""> 7:00am</option>
+                                        <option value=""> 10:00am</option>
+                                    </select>
+                                </p>
+
+                                <p>
+                                    Time to:
+                                    <select name="time" id="session-time">
+                                        <option value=""></option>
+                                        <option value=""> 7:00pm</option>
+                                        <option value=""> 10:00pm</option>
+                                    </select>
+                                </p>
+                            </div>
+
+                            <div class="content2">
+                                <p>
+                                    Date: 
+                                    <input type="date">
+                                </p>
+
+                                
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="hero-box">
+                    <button>
+                        <i class="fas fa-bookmark"></i>
+                        <h1>
+                           enroll
+                        </h1>
+                        <i class="fas fa-minus"></i>
+                    </button>
+                    
+                    <div class="hero-item">
+        
+                    </div>
+                </div>
+        
+                <div class="hero-box">
+                    <button>
+                        <i class="fas fa-bookmark"></i>
+                        <h1>
+                           enroll
+                        </h1>
+                        <i class="fas fa-minus"></i>
+                    </button>
+                    
+                    <div class="hero-item">
+        
+                    </div>
+                </div>
+        
+                <div class="hero-box">
+                    <button>
+                        <i class="fas fa-bookmark"></i>
+                        <h1>
+                           enroll
+                        </h1>
+                        <i class="fas fa-minus"></i>
+                    </button>
+                    
+                    <div class="hero-item">
+        
+                    </div>
+                </div>
+        
+                <div class="hero-box">
+                    <button>
+                        <i class="fas fa-bookmark"></i>
+                        <h1>
+                           enroll
+                        </h1>
+                        <i class="fas fa-minus"></i>
+                    </button>
+                    
+                    <div class="hero-item">
+        
+                    </div>
+                </div>
+        
+            </div>
+
+
+        <div class="hero-item2 active" id="hero-section2">
+            <div class="head">
+                <p>
+                    Session type :
+                    <input type="radio" value="exercise" name="">
+                    Work out
+
+                    <input type="radio" value="massage" name="">
+                    Massage
+                </p>
+                
+            </div>
+
+            <div class="hero-content">
+                <div class="content1">
+                    <p>
+                        Time From:
+                        <select name="time" id="session-time">
+                            <option value=""></option>
+                            <option value=""> 7:00am</option>
+                            <option value=""> 10:00am</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        Time to:
+                        <select name="time" id="session-time">
+                            <option value=""></option>
+                            <option value=""> 7:00pm</option>
+                            <option value=""> 10:00pm</option>
+                        </select>
+                    </p>
+                </div>
+
+                <div class="content2">
+                    <p>
+                        Date: 
+                        <input type="date">
+                    </p>
+
+                    
+                </div>
+            </div>
+
+        </div>
+    
+
+    </div>
+
+    <!-- ---------------------
+    SERVICES SECTION 
+    --------------------- -->
+
+
+    <section class="service" id="service">
+        <div class="container_wrapper">
+            <header>
+                <p>more from <span>Geenie</span></p>
+                <h1>membership features</h1>    
+            </header>
+
+
+            <div class="container_content">
+                <div class="content">            
+                    <i class="fas fa-columns"></i>
+                    <h2> workouts</h2>
+                    <p> You get to use our gym equipments to workout your muscles at your own pace and convenience</p>            
+                </div>
+
+                <div class="content">            
+                    <i class="fas fa-biking"></i>
+                    <h2> cycling</h2>
+                    <p> We also have cycling equipments to get cells into running and normalise heart pumping rate</p>            
+                </div>
+
+                <div class="content">            
+                    <i class="fas fa-hamburger"></i>
+                    <h2> meal</h2>
+                    <p> Get the appropriate diet to keep your body in shape. The right food with appropriate ration strengthens your muscles. </p>            
+                </div>
+
+                <div class="content">            
+                    <i class="fas fa-universal-access"></i>
+                    <h2> Yoga</h2>
+                    <p> To boost your mood for the day's activity too, we have just the right equipments</p>            
+                </div>
+
+                <div class="content">            
+                    <i class="fas fa-circle-notch"></i>
+                    <h2> fitness</h2>
+                    <p> We can help you get into shape with the right equipments</p>            
+                </div>
+
+                <div class="content">            
+                    <i class="fas fa-trophy"></i>
+                    <h2> 24/7 supervision</h2>
+                    <p> We will help you keep track of your body until your reach your desired goal</p>            
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- --------------------------
+    CLASSES
+    -------------------------- -->
+    
+    <section class="classec" id="classec">
+        <div class="container_wrapper">
+            <header>
+                <p>more from <span>Geenie</span></p>
+                <h1>our classes</h1>    
+            </header>
+        </div>
+
+
+        <div class="classec-content">
+            <div class="classec-inner-content">
+                <div class="classec-image">
+                    <img src="img/clb1.jpeg" alt="">
+
+                    <div class="classec-items">
+                        <h1>weight lifts</h1>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="classec-inner-content">
+                <div class="classec-image">
+                    <img src="img/clb2.jpeg" alt="">
+
+                    <div class="classec-items">
+                        <h1>yoga</h1>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="classec-inner-content">
+                <div class="classec-image">
+                    <img src="img/clb4.jpeg" alt="">
+
+                    <div class="classec-items">
+                        <h1>butt blast</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="classec-inner-content">
+                <div class="classec-image">
+                    <img src="img/clb3.jpeg" alt="">
+
+                    <div class="classec-items">
+                        <h1>interaction</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="classec-inner-content">
+                <div class="classec-image">
+                    <img src="img/clb5.jpeg" alt="">
+
+                    <div class="classec-items">
+                        <h1>cycling</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="classec-inner-content">
+                <div class="classec-image">
+                    <img src="img/clb6.jpeg" alt="">
+
+                    <div class="classec-items">
+                        <h1>moutain climbing</h1>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+
+    <section class="pricing" id="pricing">
+        <div class="container_wrapper">
+            <header>
+                <p><span>Geenie</span> subscription</p>
+                <h1>our pricing</h1>    
+            </header>
+
+            <div class="price">
+                <div class="price-box">
+                    <div class="price-content">
+                        <i class="fas fa-hashtag"></i>
+                        <h1>plus plan</h1>
+                        <p><span>15,000.00</span><br>
+                            /mon <br>
+                            + body massage
+                            <br>
+                        </p>
+                        <button>
+                            subscribe
+                        </button>
+                    </div>
+                </div>
+
+                <div class="price-box">
+                    <div class="price-content">
+                        <i class="fas fa-hashtag"></i>
+                        <h1>basic plan</h1>
+                        <p><span>5,000.00</span><br>/mon<br><br></p>
+                        <button>
+                            subscribe
+                        </button>
+                    </div>
+                </div>
+
+                <div class="price-box">
+                    <div class="price-content">
+                        <i class="fas fa-hashtag"></i>
+                        <h1>premium plan</h1>
+                        <p><span>30,000.00</span><br>
+                            /mon <br>
+                            + body massage <br>
+                            + proper diet
+                        </p>
+                        <button>
+                            subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tutor" id="tutor">
+        <div class="container_wrapper">
+            <header>
+                <p>more from <span>Geenie</span></p>
+                <h1>our tutors</h1>    
+            </header>
+
+            <div class="tutor-wrap">
+                <div class="tutor-content">
+                    <div class="tutor-box">
+                        <img src="img/bg4.jpeg" alt="">
+                    </div>
+
+                    <h1>
+                        Grace O.S
+                    </h1>
+                    <p>
+                       Certified Athlete from Oxford University with 10+ years of experience.
+                       Jovial and good Listener.
+                   </p>
+                </div>
+
+                <div class="tutor-content">
+                    <h1>
+                        James Brown
+                    </h1>
+                    <p>
+                        Has helped many people to get into the right shape and mood.
+                        Motivating and Focused.
+                   </p>
+
+                   <div class="tutor-box">
+                        <img src="img/bg3.jpeg" alt="">
+                    </div>
+                </div>
+
+                <div class="tutor-content">
+                    <div class="tutor-box">
+                        <img src="img/bg6.jpeg" alt="">
+                    </div>
+
+                    <h1>
+                        Stef London
+                    </h1>
+                    <p>
+                        A certified athlete from Boston University who specialises 
+                        on butt blast. Friendly and Easy to relate with.
+                   </p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+   
+
+    <footer>
+        <div class="socials">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fas fa-phone"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-whatsapp"></i>
+        </div>
+
+        <p>
+            &copy 2022. Designed by <a href=""> Tobiledsam</a>
+        </p>
+        
+    </footer>
+
+    <script src="code.js"></script>
+
+    <!-- Geenie gym is particularly built for a mobile view and ofcourse 
+    it responds well on the Desktop view. The mobile view was implemented 
+    because 95% of the target audience are always on their phones.
+    Technology used are HTML, CSS and JS -->
+
+
+</body>
+</html>
