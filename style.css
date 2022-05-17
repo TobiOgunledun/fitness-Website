@@ -373,7 +373,7 @@ CLASSES
     grid-gap: 1em;
     justify-content: center;
     align-content: center;
-    grid-template-columns: 10em 10em 10em;
+    grid-template-columns: 20vw 20vw 20vw;
     grid-template-rows: auto auto;
     position: relative;
 }
