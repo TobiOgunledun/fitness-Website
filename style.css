@@ -72,6 +72,8 @@ img{
     z-index: 0;
 }
 nav{
+    position: sticky;
+    top: 0;
     width: 90%;
     margin-left: 5%;
     height: 10vh;
@@ -102,7 +104,7 @@ label img{
     text-align: center;
     transition: .5s ease;
     outline: hidden;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 nav ul li{
     transform: translateY(50%);
@@ -376,6 +378,7 @@ CLASSES
     grid-template-columns: 20vw 20vw 20vw;
     grid-template-rows: auto auto;
     position: relative;
+    z-index: -1;
 }
 
 .classec-content .classec-inner-content:nth-child(1){
@@ -461,7 +464,7 @@ PRICE SECTIOIN
     position: relative;
     color: var(--sub-color);
     cursor: pointer;
-    z-index: 1;
+    z-index: -1;
     overflow: hidden;
     transition: .3s ease-in;
 }
@@ -522,10 +525,10 @@ FOOTER
 -------- */
 
 footer{
-    width: 100%;
+    width: 100vw;
     background: #201f1f;
     text-align: center;
-    padding: 1em;
+    padding: 1em 0;
 }
 footer a{
     text-decoration: none;
@@ -537,7 +540,7 @@ footer p{
 }
 footer .socials i{
     padding: 1em;
-    font-size: 1.5em;
+    font-size: 1.2em;
     cursor: pointer;
     color: var(--sub-color);
     transition: .2s ease-in;
