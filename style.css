@@ -3,6 +3,7 @@
     margin: 0;
     scroll-behavior: smooth;
     overflow-x: hidden; 
+    outline: hidden;
 }
 :root{
     --main-color: #1b1919;
