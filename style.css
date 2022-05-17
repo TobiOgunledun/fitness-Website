@@ -210,7 +210,7 @@ POPUP VIEW
 .popup-view{
     position: absolute;
     top: -100%;
-    left: 25%;
+    left: 15%;
     width: 20em;
     background: var(--main-color);
     padding: 1em;
