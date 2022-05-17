@@ -58,7 +58,7 @@
     }
     .classec-content{
         /* width: 100%; */
-        grid-template-columns: 18em 18em 18em;
+        grid-template-columns: 20vw 20vw 20vw;
         grid-template-rows: auto auto;
 
     }
@@ -89,7 +89,7 @@
 
     .classec-content{
         width: 100%;
-        grid-template-columns: 12em 12em 12em;
+        grid-template-columns: 20vw 20vw 20vw;
         grid-template-rows: auto auto;
 
     }
